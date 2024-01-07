@@ -26,7 +26,10 @@
 
         .banner-section {
             font-family: 'Sora', sans-serif;
-            background-color: #ffc09f;
+            background-image: url('assets/images/home_pasien.jpg');
+            background-position: center;
+            background-size: cover;
+            font-weight: 800;
             color: black;
             padding: 10% 0;
             /* Responsive padding */
@@ -130,6 +133,50 @@
             height: auto;
         }
 
+        .info-section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .info-block {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            display: flex;
+            max-width: 80%;
+            margin-bottom: 20px;
+        }
+
+        .info-block img {
+            width: 50%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .text-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .text-content h4 {
+            font-size: 1.5rem;
+            color: #333;
+            margin: 0;
+        }
+
+        .text-content p {
+            font-size: 1rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+
         @media (max-width: 768px) {
             .title {
                 font-size: 1.5rem;
@@ -153,8 +200,9 @@
     <!-- Section 1: Banner -->
     <section class="banner-section">
         <div class="container text-right my-5 fade-in">
-            <h1 style="text-align: center; font-size: 30px;"><b>Kami Peduli Dengan Kesehatan Anda</b></h1>
-            <p style="text-align: center; font-size: 20px;">Kami akan melayani anda dengan sepenuh hati dan juga akan memberikan pelayanan terbaik kami hingga anda sembuh</p>
+            <h1 style="text-align: center; font-size: 30px;"><b>Kesehatan Anda Prioritas Kami</b></h1>
+            <p style="text-align: center; font-size: 20px;">Kami akan memberikan pelayanan terbaik kami hingga anda
+                sembuh</p>
         </div>
     </section>
 
@@ -182,32 +230,32 @@
                 </div>
             </div>
         </div>
-    </section> 
-
-    <section class="video-section">
-        <div class="container my-5">
-            <!-- Tagline -->
-            <div class="tagline text-center">
-                <p style="font-size: 24px; font-weight: bold; color: #51604F;">Nikmati <span
-                        style="color: #661b2b; font-size: 28px;">Pelayanan</span> Kesehatan <span
-                        style="color: #661b2b; font-size: 28px;">Bersama Kami</span></p>
+    </section>
+    <section class="info-section">
+        <div class="info-block">
+            <img src="assets/images/interior.jpg" alt="Interior">
+            <div class="text-content">
+                <h4>Interior Nyaman</h4>
+                <p>Interior yang selalu bersih dan nyaman bagi Pasien.</p>
             </div>
         </div>
-
-        <!-- Section 3: Video and Greetings -->
-        <div class="container my-5 greeting">
-            <div class="row align-items-center">
-                <!-- Image left, text right -->
-                <div class="col-md-6 order-2 order-md-1">
-                    <img src="assets/images/hospital1.jpg" alt="" style="width: 100%; height: auto;">
-                </div>
-                <div class="col-md-6 order-1 order-md-2 mb-4">
-                    <h2>Selamat Datang di Poliklinik karunia sehat</h2>
-                    <p>kepuasaan dan kesehatan anda adalah prioritas kami</p>
-                </div>
+        <div class="info-block">
+            <img src="assets/images/team.jpg" alt="Tim Medis">
+            <div class="text-content">
+                <h4>Tim Medis Ahli</h4>
+                <p>Team Dokter dan Perawat yang ahli.</p>
+            </div>
+        </div>
+        <div class="info-block">
+            <img src="assets/images/tech.jpg" alt="Teknologi">
+            <div class="text-content">
+                <h4>Teknologi Canggih</h4>
+                <p>Teknologi lengkap dan modern untuk mendukung penyembuhan anda.</p>
             </div>
         </div>
     </section>
+
+
 
 </body>
 

@@ -66,12 +66,15 @@
             font-weight: bold;
             /* membuatnya tebal */
         }
+        .content {
+            align-items: center;
+        }
     </style>
 </head>
 
 <body>
     <!-- Content Header (Page header) -->
-    <div class="content-header py-5 bg-primary text-white">
+    <div style="background-color: #ff6ab6;"  class="content-header py-5  text-white">
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-12">
@@ -84,119 +87,79 @@
     <!-- /.content-header -->
 
     <!-- Main content -->
-    <section class="content mt-5">
+    <br><br><br>
+    <section class="content">
         <div class="container-fluid">
-            <!-- Info boxes -->
+            <!-- Small boxes (Stat box) -->
             <div class="row">
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="card card-custom bg-info">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-4">
-                                    <i class="fa fa-check-square fa-3x text-white"></i>
-                                </div>
-                                <div class="col-8">
-                                    <span class="info-box-text text-white">Jumlah Pasien saat ini :</span>
-                                    <span class="info-box-number text-white">150</span>
-                                </div>
-                            </div>
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-info">
+                        <div class="inner">
+                            <h3>2</h3>
+
+                            <p>Jumlah Pasien Pada <?php echo $nama_poli; ?></p>
                         </div>
+                        <div class="icon">
+                            <i class="ion ion-bag"></i>
+                        </div>
+                        <a href="pasien.php" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="card card-custom bg-info">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-4">
-                                    <i class="fa fa-calendar-check fa-3x text-white"></i>
-                                </div>
-                                <div class="col-8">
-                                    <span class="info-box-text text-white">Status Kerja saat ini :</span>
-                                    <span class="info-box-number text-white active">Active</span>
-                                </div>
-                            </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-success">
+                        <div class="inner">
+                            <h3>1<sup style="font-size: 20px"></sup></h3>
+
+                            <p>Pasien Telah diperiksa</p>
                         </div>
+                        <div class="icon">
+                            <i class="ion ion-stats-bars"></i>
+                        </div>
+                        <a href="" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="card card-custom bg-info">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-4">
-                                    <i class="fa fa-check-square fa-3x text-white"></i>
-                                </div>
-                                <div class="col-8">
-                                    <span class="info-box-text text-white">Pasien Telah Diperiksa :</span>
-                                    <span class="info-box-number text-white">50</span>
-                                </div>
-                            </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <div class="small-box bg-warning">
+                        <div class="inner">
+                            <h3>2</h3>
+
+                            <p>Pasien Belum Diperiksa</p>
                         </div>
+                        <div class="icon">
+                            <i class="ion ion-person-add"></i>
+                        </div>
+                        <a href="poli.php" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
-                <div class="col-12 col-sm-6 col-md-3">
-                    <div class="card card-custom bg-info">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col-4">
-                                    <i class="fa fa-calendar-check fa-3x text-white"></i>
-                                </div>
-                                <div class="col-8">
-                                    <span class="info-box-text text-white">Pasien Hari ini :</span>
-                                    <span class="info-box-number text-white">20</span>
-                                </div>
-                            </div>
+                <!-- ./col -->
+                <div class="col-lg-3 col-6">
+                    <!-- small box -->
+                    <!-- <div class="small-box bg-danger">
+                        <div class="inner">
+                            <h3></h3>
+
+                            <p>Jadwal Aktif</p>
                         </div>
-                    </div>
+                        <div class="icon">
+                            <i class="ion ion-pie-graph"></i>
+                        </div>
+                        <a href="obat.php" class="small-box-footer">More info <i
+                                class="fas fa-arrow-circle-right"></i></a>
+                    </div> -->
                 </div>
+                <!-- ./col -->
             </div>
             <!-- /.row -->
-
-            <!-- Custom Content Here -->
-            <div class="row">
-                <!-- Jadwal Harian Dokter -->
-                <div class="col-12 col-md-6">
-                    <div class="card card-custom bg-warning">
-                        <div class="card-body">
-                            <h5 class="text-white">Jadwal Harian</h5>
-                            <ul class="list-unstyled">
-                                <li class="text-white">09:00 - Pasien: Budi</li>
-                                <li class="text-white">10:30 - Pasien: Siti</li>
-                                <!-- Lainnya... -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card card-custom bg-danger">
-                        <div class="card-body">
-                            <h5 class="text-white">Notifikasi Penting</h5>
-                            <p class="text-white">Pasien Dengan Kasus Kritis: Ani (Ruangan 305)</p>
-                            <!-- Lainnya... -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card card-custom bg-success">
-                        <div class="card-body">
-                            <h5 class="text-white">Statistik Mingguan</h5>
-                            <p class="text-white">Pasien Diperiksa Minggu Lalu: 75</p>
-                            <!-- Grafik atau detail lainnya... -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-6">
-                    <div class="card card-custom bg-secondary">
-                        <div class="card-body">
-                            <h5 class="text-white">Pesan dan Konsultasi</h5>
-                            <p class="text-white">Anda memiliki 5 pesan baru.</p>
-                            <!-- Tautan atau formulir untuk konsultasi... -->
-                        </div>
-                    </div>
-                </div>
-            </div><!-- /.container-fluid -->
+            <!-- /.row (main row) -->
+        </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
 
