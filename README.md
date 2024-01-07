@@ -1,12 +1,12 @@
-## Admin
+## Loginn sebagai Admin
 
-username dan passwor admin
+username dan password admin
 ```
 username : Admin
-password : admin
+password : 1234
 ```
 
-## Dokter
+## Login sebagai Dokter
 
 username dokter = password dokter
 ```

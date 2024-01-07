@@ -26,8 +26,8 @@
 
         .banner-section {
             font-family: 'Sora', sans-serif;
-            background-color: #232ed1;
-            color: #fff;
+            background-color: #ffc09f;
+            color: black;
             padding: 10% 0;
             /* Responsive padding */
             text-align: center;
@@ -154,8 +154,7 @@
     <section class="banner-section">
         <div class="container text-right my-5 fade-in">
             <h1 style="text-align: center; font-size: 30px;"><b>Kami Peduli Dengan Kesehatan Anda</b></h1>
-            <p style="text-align: center; font-size: 20px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ut, vel maxime recusandae consequatur voluptate aspernatur?</p>
+            <p style="text-align: center; font-size: 20px;">Kami akan melayani anda dengan sepenuh hati dan juga akan memberikan pelayanan terbaik kami hingga anda sembuh</p>
         </div>
     </section>
 
@@ -165,25 +164,25 @@
             <div class="row floating-word">
                 <div class="col-md-4 col-lg-3">
                     <div class="text-center mt-3">
-                        <img style="max-height: 100px" src="asset/images/icon3.png" alt="Logo">
+                        <img style="max-height: 100px" src="assets/images/icon3.png" alt="Logo">
                         <p class="mt-5">Kami akan memberikan fasilitas terbaik.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-3">
                     <div class="text-center mt-3">
-                        <img style="max-height: 100px" src="asset/images/icon2.png" alt="Logo">
+                        <img style="max-height: 100px" src="assets/images/icon2.png" alt="Logo">
                         <p class="mt-5">Kami akan memberikan Dokter terbaik.</p>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-3">
                     <div class="text-center mt-3 banner3">
-                        <img style="max-height: 100px" src="asset/images/icon1.png" alt="Logo">
+                        <img style="max-height: 100px" src="assets/images/icon1.png" alt="Logo">
                         <p class="mt-5">Kami akan memberikan pelayanan terbaik.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> <br><br><br>
+    </section> 
 
     <section class="video-section">
         <div class="container my-5">
@@ -200,13 +199,11 @@
             <div class="row align-items-center">
                 <!-- Image left, text right -->
                 <div class="col-md-6 order-2 order-md-1">
-                    <img src="asset/images/hospital1.jpg" alt="" style="width: 100%; height: auto;">
+                    <img src="assets/images/hospital1.jpg" alt="" style="width: 100%; height: auto;">
                 </div>
                 <div class="col-md-6 order-1 order-md-2 mb-4">
-                    <h2>Selamat Datang di Poliklinik Ambal Waras</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum impedit a est alias inventore,
-                        molestias ipsam saepe expedita deserunt minima itaque quibusdam voluptatum iure veritatis omnis
-                        deleniti quam quae maiores.</p>
+                    <h2>Selamat Datang di Poliklinik karunia sehat</h2>
+                    <p>kepuasaan dan kesehatan anda adalah prioritas kami</p>
                 </div>
             </div>
         </div>

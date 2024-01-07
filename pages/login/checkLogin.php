@@ -7,7 +7,7 @@
         $username = $_POST['username'];
         $password = md5($_POST['password']);
 
-        if ($username == "Admin" && $password == md5("admin")) {
+        if ($username == "Admin" && $password == md5("1234")) {
             $_SESSION['username'] = $username;
             $_SESSION['password'] = $password;
             $_SESSION['akses'] = "admin";
