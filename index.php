@@ -103,6 +103,8 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Fav Icon -->
+    <link rel="icon" type="image/png" href="assets/images/logo_dinus.png">
 </head>
 
 <body class="hold-transition login-page">
